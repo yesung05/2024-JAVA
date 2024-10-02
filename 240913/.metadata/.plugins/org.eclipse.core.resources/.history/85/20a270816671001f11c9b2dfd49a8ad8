@@ -1,0 +1,12 @@
+package first;
+
+public class VarInit {
+
+	public static void main(String[] args) {
+		int i = 0;
+		i = 10;
+		System.out.println("%d",i);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package Notdefault;
+
+public class monthDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int randMonth = (int)(Math.random()*12)+1;
+		int date = 0;
+		
+		switch(randMonth) {
+			case 1,3,5,7,8,10,12 -> {
+				date = 31;
+				break;
+			}
+			case 2 -> {
+				date = 28;
+				break;
+			}
+			default -> {
+				date = 30;
+			}
+		}
+		System.out.printf("%d월의 마지막 날은  %d일 입니다.", randMonth, date);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class inputmax {
+
+import java.util.Scanner;	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner 
+		int iNum1 = scanner.nextLine
+	}
+
+}

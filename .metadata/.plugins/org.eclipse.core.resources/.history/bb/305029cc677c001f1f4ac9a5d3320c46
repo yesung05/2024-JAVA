@@ -1,0 +1,23 @@
+import java.util.Scanner;	
+
+public class inputmax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.printf("1. Input Integer value : ");
+		int iNum1 = Integer.parseInt(scanner.nextLine());
+		System.out.printf("2. Input Integer value : ");
+		int iNum2 = Integer.parseInt(scanner.nextLine());
+		
+		if(iNum2 <= iNum1) {
+			System.out.printf("Output iFstVal ", iNum1);
+			System.out.printf("Output iFstVal ", iNum2);
+		}
+		else {
+			System.out.printf("Oubput iSecVal ", iNum2);
+			System.out.printf("Oubput iSecVal ", iNum1);
+		}
+	}
+
+}
